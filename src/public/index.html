@@ -43,7 +43,6 @@
        
       </div>
     </div>
-    <!--<input id="debug" type="button" value="Toggle Reels"/>-->
   </div>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
   <script type="text/javascript" src="js/slots.js"></script>
@@ -51,7 +50,7 @@
     $(function() { 
       //Load a specific game
       $.ajax({
-        url: 'http://127.0.0.1:4000/game/2',
+        url: 'https://slotsjs.herokuapp.com/game/2',
         dataType: 'json',
         success: function(gameData) { 
           console.log(gameData);

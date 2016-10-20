@@ -184,7 +184,7 @@ class Game {
 	    //Get results from the server
 	    var thisGame = this;
 	    $.ajax({
-	        url: 'http://127.0.0.1:4000/spin',
+	        url: 'https://slotsjs.herokuapp.com/spin',
 	        dataType: 'json',
 	        success: function(data) { 
 
