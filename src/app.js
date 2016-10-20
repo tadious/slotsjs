@@ -6,7 +6,7 @@ import Game from './server/Game';
 const app = express();
 
 // use it before all route definitions
-app.use(cors({origin: 'http://slotsjs.herokuapp.com'}));
+app.use(cors({origin: 'https://slotsjs.herokuapp.com'}));
 
 //Game interface 
 app.use('/', express.static(__dirname + '/public'));
